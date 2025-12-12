@@ -82,15 +82,14 @@ const HeroSection = () => {
               onClick={handleOpenContactForm}
               >
             <Mail className="h-5 w-5" />
-                </Button>
+            </Button>
 
                  
-                <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary" asChild>
-                  <a href="mailto:walidmarzouk.dev@gmail.com">
-                    <Mail className="h-5 w-5" />
-                  </a>
-                </Button>
-                <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary" asChild>
+<Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary" asChild>
+  <a href="https://www.linkedin.com/in/walidmarzouk/" target="_blank" rel="noopener noreferrer">
+    <Linkedin className="h-5 w-5" />
+  </a>
+</Button>                <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary" asChild>
                   <a href="tel:+21699054535">
                     <Phone className="h-5 w-5" />
                   </a>
