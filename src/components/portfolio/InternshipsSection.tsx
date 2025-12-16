@@ -19,7 +19,7 @@ const InternshipsSection = () => {
       videoThumbnail: "/thumbnail.jpg",
     },
     {
-      company: "CondiGoat",
+      company: "CodinGoat",
       role: "Frontend Mobile Developer Intern",
       period: "July 2024 – September 2024",
       location: "Mahdia, Tunisia",
@@ -34,9 +34,8 @@ const InternshipsSection = () => {
       period: "July 2023 – September 2023",
       location: "Tunis, Tunisia",
       description:
-        "Designed and developed the backend of the official ESPRIT internship management platform using Spring Boot and JWT-based authentication. Implemented features for student internship tracking, evaluation workflows, document and file management, and communication between students and academic supervisors. Built dedicated modules for teachers, internship supervisors, and the internship department, and contributed to the admin dashboard by implementing core management and monitoring functionalities.",
+        "Designed and developed the backend of the ESPRIT internship management platform using Spring Boot and JWT-based authentication. Implemented features for student internship tracking, evaluation workflows, document and file management, and communication between students and academic supervisors. Built dedicated modules for teachers, internship supervisors, and the internship department, and contributed to the admin dashboard by implementing core management and monitoring functionalities.",
       logoUrl: "esprit.png",
-      demo: "https://pfe.esprit.tn/",
     },
     {
       company: "MBM LAB",
