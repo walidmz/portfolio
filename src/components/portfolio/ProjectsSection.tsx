@@ -15,36 +15,7 @@ const ProjectsSection = () => {
   const [activeVideoId, setActiveVideoId] = useState<string | null>(null);
 
   const projects = [
-    {
-      title: "Mouqawel.tn Website",
-      company: "Independent Freelance Project",
-      period: "2024",
-      location: "Mouqawel",
-      description:
-        "Developed a comprehensive web platform for Mouqawel.tn, enhancing user engagement and service accessibility for contractors across Tunisia.",
-      icon: Briefcase,
-      category: "Web Development",
-      technologies: [
-        "Spring Boot",
-        "Angular 19",
-        "PostgreSQL",
-        "Maven",
-        "Git",
-        "Jenkins",
-        "Docker",
-        "Kubernetes",
-        "Jira",
-      ],
-      highlights: [
-        "End-to-end contractor service platform",
-        "Improved user engagement and accessibility",
-        "Scalable web architecture for future features",
-      ],
-      status: "Completed",
-      github: "", // add link if available
-      demo: "https://mouqawel.tn/",
-      imageUrl: "/mouqawel-web.png", // ← put your screenshot here
-    },
+    
     {
       title: "Mouqawel.tn Mobile App",
       company: "Independent Freelance Project",
