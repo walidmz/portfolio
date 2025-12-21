@@ -22,16 +22,16 @@ const CvDownloadModal: React.FC<CvDownloadModalProps> = ({ onClose }) => {
         </CardHeader>
         <CardContent>
           <div className="flex flex-col gap-4">
-            <a href="/cv_walidmarzouk_english (1).pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/cv_walid_marzouk.pdf" target="_blank" rel="noopener noreferrer">
               <Button className="w-full">
                 <Download className="mr-2 h-4 w-4" />
-                Download CV (English)
+                Download CV (Fullstack)
               </Button>
             </a>
             <a href="/cv_walid_marzouk.pdf" target="_blank" rel="noopener noreferrer">
               <Button className="w-full">
                 <Download className="mr-2 h-4 w-4" />
-                Download CV (French)
+                Download CV (Flutter)
               </Button>
             </a>
           </div>
